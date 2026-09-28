@@ -2,23 +2,22 @@
 
 use Illuminate\Support\Facades\Route;
 
-
-//Route::get('/', function() {
+// Route::get('/', function() {
 //    return view('welcome');
-//});
+// });
 
-Route::get('/home', function() {
+Route::get('/home', function () {
     return view('home');
 });
-Route::get('/about', function() {
+Route::get('/about', function () {
     return view('about');
 });
-Route::get('/viewlayout', function() {
+Route::get('/viewlayout', function () {
     return view('viewlayout');
 });
-Route::get('/admin/dashboard', function() {
+Route::get('/admin/dashboard', function () {
     return view('admin.dashboard');
 });
-Route::get('/admin/about', function() {
+Route::get('/admin/about', function () {
     return view('admin.about');
 });

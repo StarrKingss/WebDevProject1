@@ -15,8 +15,7 @@ class MenuItem extends Component
         public string $href,
         public string $label,
         public string $icon,
-    )
-    {
+    ) {
         //
     }
 
