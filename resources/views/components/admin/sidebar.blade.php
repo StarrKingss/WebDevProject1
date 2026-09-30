@@ -31,6 +31,7 @@
             <ul class="space-y-2">
                 <x-admin.menu-item href="/admin/dashboard" label="Dashboard" icon='<path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z"></path><path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z"></path>' />
                 <x-admin.menu-item href="/admin/about" label="About" icon='<path d="M11 17a1 1 0 001.447.894l4-2A1 1 0 0017 15V9.236a1 1 0 00-1.447-.894l-4 2a1 1 0 00-.553.894V17zM15.211 6.276a1 1 0 000-1.788l-4.764-2.382a1 1 0 00-.894 0L4.789 4.488a1 1 0 000 1.788l4.764 2.382a1 1 0 00.894 0l4.764-2.382zM4.447 7.003a1 1 0 00-.447.894V14a1 1 0 001.447.894l4-2a1 1 0 00.553-.894V5.118a1 1 0 00-1.447-.894l-4 2z"></path>' />
+                <x-admin.menu-item href="/admin/student" label="Student" icon='<path d="M11 17a1 1 0 001.447.894l4-2A1 1 0 0017 15V9.236a1 1 0 00-1.447-.894l-4 2a1 1 0 00-.553.894V17zM15.211 6.276a1 1 0 000-1.788l-4.764-2.382a1 1 0 00-.894 0L4.789 4.488a1 1 0 000 1.788l4.764 2.382a1 1 0 00.894 0l4.764-2.382zM4.447 7.003a1 1 0 00-.447.894V14a1 1 0 001.447.894l4-2a1 1 0 00.553-.894V5.118a1 1 0 00-1.447-.894l-4 2z"></path>' />
                 <li>
                     <ul id="dropdown-authentication" class="hidden py-2 space-y-2">
                         <li>

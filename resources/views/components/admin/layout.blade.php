@@ -8,17 +8,15 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="antialiased bg-gray-50 dark:bg-gray-900">
+    <div class="antialiased bg-gray-50 dark:bg-gray-900 min-h-screen">
     <x-admin.navbar/>
 
     <!-- Sidebar -->
     <x-admin.sidebar/>
 
     <main class="p-4 md:ml-64 h-auto pt-20">
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
-        {{ $slot }}
-      </div>
-    </main>
+  {{ $slot }}
+</main>
   </div>
 </body>
 </html>
