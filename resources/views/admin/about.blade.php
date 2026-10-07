@@ -11,7 +11,9 @@
             Hobi : Berenang<br>
             Alamat : Jepang<br>
             Kelas : 11 PPLG 3<br>
-            Repo : StarrKingss<br>
         </p>
+        <a href="https://github.com/StarrKingss/WebDevProject1.git" class="text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300">
+            StarKingss
+        </a>
     </div>
 </x-admin.layout>
