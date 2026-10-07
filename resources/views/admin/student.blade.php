@@ -1,77 +1,4 @@
 <x-admin.layout>
-    @php
-        // Data array dummy (nantinya ini diganti dengan data dari Controller)
-        $students = [
-            [
-                'name' => 'Dio Satria Adhie',
-                'nis' => '001',
-                'class' => '11 PPLG 3',
-                'major' => 'PPLG',
-                'status' => 'Active'
-            ],
-            [
-                'name' => 'Budi Santoso',
-                'nis' => '002',
-                'class' => '11 PPLG 3',
-                'major' => 'PPLG',
-                'status' => 'Active'
-            ],
-            [
-                'name' => 'Citra Lestari',
-                'nis' => '003',
-                'class' => '11 PPLG 3',
-                'major' => 'PPLG',
-                'status' => 'Active'
-            ],
-            [
-                'name' => 'Andi Pratama',
-                'nis' => '004',
-                'class' => '11 PPLG 3',
-                'major' => 'PPLG',
-                'status' => 'Active'
-            ],
-            [
-                'name' => 'Siti Aisyah',
-                'nis' => '005',
-                'class' => '11 PPLG 3',
-                'major' => 'PPLG',
-                'status' => 'Active'
-            ]
-            ,
-            [
-                'name' => 'Siti Aisyah',
-                'nis' => '006',
-                'class' => '11 PPLG 3',
-                'major' => 'PPLG',
-                'status' => 'Active'
-            ]
-            ,
-            [
-                'name' => 'Siti Aisyah',
-                'nis' => '007',
-                'class' => '11 PPLG 3',
-                'major' => 'PPLG',
-                'status' => 'Active'
-            ]
-            ,
-            [
-                'name' => 'Siti Aisyah',
-                'nis' => '008',
-                'class' => '11 PPLG 3',
-                'major' => 'PPLG',
-                'status' => 'Active'
-            ]
-            ,
-            [
-                'name' => 'Siti Aisyah',
-                'nis' => '009',
-                'class' => '11 PPLG 3',
-                'major' => 'PPLG',
-                'status' => 'Active'
-            ]
-        ];
-    @endphp
-
     <section class="bg-gray-50 dark:bg-gray-900 p-3 sm:p-5">
         <div class="mx-auto max-w-screen-xl px-4 lg:px-12">
 
@@ -176,10 +103,10 @@
                                     {{ $student['nis'] }}
                                 </td>
                                 <td class="px-4 py-3">
-                                    {{ $student['class'] }}
+                                    {{ $student['kelas'] }}
                                 </td>
                                 <td class="px-4 py-3">
-                                    {{ $student['major'] }}
+                                    {{ $student['jurusan'] }}
                                 </td>
                                 <td class="px-4 py-3">
                                     {{ $student['status'] }}

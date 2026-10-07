@@ -11,6 +11,10 @@ class AboutController extends Controller
      */
     public function index()
     {
-        return view('admin.about');
+        return view('admin.about',[
+            'title'=> "About",
+            'nama'=>"Dio Satria Adhie",
+            'kelas'=>"11plg3",
+            'umur'=>"16",        ]);
     }
 }
