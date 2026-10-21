@@ -19,6 +19,9 @@ class StudentFactory extends Factory
     {
         return [
             //
+            'name' => fake()->name(),
+            'nis' => fake()->unique()->randomNumber(5, true),
+            'classroom'=> fake()->randomElement(['X PPLG 1', 'X PPLG 2', 'XI PPLG 1', 'XI PPLG 2', 'XII PPLG 1', 'XII PPLG 2']),
         ];
     }
 }

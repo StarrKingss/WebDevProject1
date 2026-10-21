@@ -2,6 +2,8 @@
 
 namespace Database\Seeders;
 
+use App\Models\Classroom;
+use App\Models\Student;
 use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -24,5 +26,8 @@ class DatabaseSeeder extends Seeder
          $this->call([
         ClassroomSeeder::class,
     ]);
+
+    Student::factory(15)->create();
+    Classroom::factory(10)->create();
     }
 }

@@ -103,13 +103,10 @@
                                     {{ $student['nis'] }}
                                 </td>
                                 <td class="px-4 py-3">
-                                    {{ $student['kelas'] }}
+                                    {{ $student['classroom'] }}
                                 </td>
                                 <td class="px-4 py-3">
-                                    {{ $student['jurusan'] }}
-                                </td>
-                                <td class="px-4 py-3">
-                                    {{ $student['status'] }}
+                                    {{ $student['major'] }}
                                 </td>
                                 <td class="px-4 py-3 flex items-center justify-end">
 
