@@ -28,6 +28,10 @@
                     icon='<path d="M11 17a1 1 0 001.447.894l4-2A1 1 0 0017 15V9.236a1 1 0 00-1.447-.894l-4 2a1 1 0 00-.553.894V17zM15.211 6.276a1 1 0 000-1.788l-4.764-2.382a1 1 0 00-.894 0L4.789 4.488a1 1 0 000 1.788l4.764 2.382a1 1 0 00.894 0l4.764-2.382zM4.447 7.003a1 1 0 00-.447.894V14a1 1 0 001.447.894l4-2a1 1 0 00.553-.894V5.118a1 1 0 00-1.447-.894l-4 2z"></path>' />
                 <x-admin.menu-item href="/admin/classroom" label="Classroom"
                     icon='<path d="M3 4h14v12H3z"></path><path d="M7 8h6M7 12h6M5 20h10"></path>' />
+                <x-admin.menu-item href="/admin/subjects" label="Subjects"
+                    icon='<path d="M3 4h14v12H3z"></path><path d="M7 8h6M7 12h6M5 20h10"></path>' />
+                <x-admin.menu-item href="/admin/teachers" label="Teachers"
+                    icon='<path d="M3 4h14v12H3z"></path><path d="M7 8h6M7 12h6M5 20h10"></path>' />
                 <li>
                     <ul id="dropdown-authentication" class="hidden py-2 space-y-2">
                         <li>
