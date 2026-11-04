@@ -17,6 +17,7 @@
                     <th class="px-6 py-3">ID</th>
                     <th class="px-6 py-3">Nama Classroom</th>
                     <th class="px-6 py-3">Jurusan</th>
+                    <th class="px-6 py-3">Siswa</th>
                 </tr>
             </thead>
 
@@ -31,6 +32,11 @@
                         </td>
                         <td class="px-6 py-4">
                             {{ $classroom->major }}
+                        </td>
+                        <td class="px-6 py-4">
+                            @foreach ($classroom->students as $student)
+                            {{ $student->name }}<br>
+                            @endforeach
                         </td>
                     </tr>
                 @empty
