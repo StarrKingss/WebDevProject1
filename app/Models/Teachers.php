@@ -8,11 +8,16 @@ use Illuminate\Database\Eloquent\Model;
 class Teachers extends Model
 {
     /** @use HasFactory<\Database\Factories\TeachersFactory> */
+    protected $with = ['subjects'];
     protected $fillable = [
         'name',
         'niy',
-        'subjects',
+        'subjects_id',
         'start_date',
     ];
     use HasFactory;
+    public function subjects()
+    {
+        return $this->belongsTo(Subjects::class, 'subjects_id');
+    }
 }

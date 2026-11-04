@@ -36,8 +36,10 @@ class DatabaseSeeder extends Seeder
         ->create();
 
 
-    Student::factory(15)->create();
-    Subjects::factory(10)->create();
-    Teachers::factory(10)->create();
+    //Student::factory(15)->create();
+    Subjects::factory(6)
+    ->hasTeachers(3)
+    ->create();
+    //Teachers::factory(10)->create();
     }
 }

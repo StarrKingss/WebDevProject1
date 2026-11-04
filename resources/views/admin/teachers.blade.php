@@ -102,7 +102,7 @@
                                     {{ $teacher['niy'] }}
                                 </td>
                                 <td class="px-4 py-3">
-                                    {{ $teacher['subjects'] }}
+                                    {{ $teacher->subjects->name }}
                                 </td>
                                 <td class="px-4 py-3">
                                     {{ $teacher['start_date'] }}

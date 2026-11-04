@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->bigInteger('niy');
-            $table->string('subjects');
+            $table->foreignId('subjects_id')->constrained(table:'subjects',indexName:'subject_teacher_id');
             $table->date('start_date');
             $table->timestamps();
         });

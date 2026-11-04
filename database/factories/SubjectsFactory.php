@@ -18,15 +18,17 @@ class SubjectsFactory extends Factory
     public function definition(): array
     {
         return [
-             'name' => fake()->randomElement(['Pendidikan Agama dan Budi Pekerti',
-    'Pendidikan Pancasila',
-    'Bahasa Indonesia',
-    'Matematika',
-    'Bahasa Inggris',
-    'Sejarah',
-    'Pendidikan Jasmani, Olahraga, dan Kesehatan',
-    'Seni Budaya',
-    'Informatika',]),
+            'name' => fake()->randomElement([
+                'Pendidikan Agama dan Budi Pekerti',
+                'Pendidikan Pancasila',
+                'Bahasa Indonesia',
+                'Matematika',
+                'Bahasa Inggris',
+                'Sejarah',
+                'Pendidikan Jasmani, Olahraga, dan Kesehatan',
+                'Seni Budaya',
+                'Informatika',
+            ]),
         ];
     }
 }
