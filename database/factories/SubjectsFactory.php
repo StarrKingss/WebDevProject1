@@ -18,7 +18,7 @@ class SubjectsFactory extends Factory
     public function definition(): array
     {
         return [
-            'name' => fake()->randomElement([
+            'name' => fake()->unique()->randomElement([
                 'Pendidikan Agama dan Budi Pekerti',
                 'Pendidikan Pancasila',
                 'Bahasa Indonesia',

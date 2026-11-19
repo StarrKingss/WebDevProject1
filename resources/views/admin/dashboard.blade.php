@@ -4,7 +4,7 @@
             Dashboard
         </h1>
         <p class="text-gray-500 dark:text-gray-400">
-            Selamat datang di halaman admin
+            Selamat datang di halaman dashboard admin
         </p>
     </div>
 </x-admin.layout>
